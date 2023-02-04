@@ -2,7 +2,6 @@ import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
   container: {
-    width: 200,
     height: 56,
     backgroundColor: '#29292E',
     position: 'absolute',
@@ -11,7 +10,6 @@ export const styles = StyleSheet.create({
     borderRadius: 32,
     justifyContent: 'center',
     alignItems: 'center',
-    flexDirection: 'row',
     paddingHorizontal: 16,
   },
   value: {
@@ -27,5 +25,9 @@ export const styles = StyleSheet.create({
   progress: {
     height: 3,
     backgroundColor: '#8257E5'
+  },
+  progressContent: {
+    flexDirection: 'row',
+    alignItems: 'center'
   }
 })
